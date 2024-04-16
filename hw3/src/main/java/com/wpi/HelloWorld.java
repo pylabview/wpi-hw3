@@ -1,4 +1,4 @@
-package com.wpi.hw3;
+package com.wpi;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -10,6 +10,7 @@ public class HelloWorld {
         int v6 = A.f6(3);
         String v7 = A.f7("hello");
         A a = new A();
-        int v8 = B.g1(1, a);
+        B b = new B(a);
+        int v8 = b.g1(1);
     }
 }

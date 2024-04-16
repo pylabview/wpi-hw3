@@ -1,4 +1,4 @@
-package com.wpi.hw3;
+package com.wpi;
 
 public class A {
     public static int f1(int x) {
