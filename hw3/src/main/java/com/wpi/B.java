@@ -1,6 +1,6 @@
 package com.wpi;
 
-class B {
+public class B {
     private final A a;
 
     B(A a) {
